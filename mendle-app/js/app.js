@@ -1,34 +1,3 @@
-# File: index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mendle | Video Manager</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@appwrite/web@13.0.1"></script>
-</head>
-<body>
-    <div id="app">
-        <header class="header">
-            <div class="container">
-                <h1>Mendle Video Manager</h1>
-            </div>
-        </header>
-        
-        <main class="main container">
-            <div id="videoGrid" class="video-grid"></div>
-        </main>
-    </div>
-    
-    <script src="app.js"></script>
-</body>
-</html>
-
-# File: style.css
-
-
-# File: app.js
 const client = new Appwrite.Client();
 
 client
